@@ -1,0 +1,65 @@
+/* ================= App Background ================= */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #f3e7e4 0%,   /* dusty rose */
+        #e2c8c1 50%,  /* muted mauve */
+        #c9a59a 100%  /* warm taupe */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* ================= Card Container ================= */
+.card {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f2e2dd   /* soft muted blush */
+    );
+    padding: 28px;
+    border-radius: 22px;
+    box-shadow: 0 12px 26px rgba(92, 47, 37, 0.18);
+    margin-bottom: 28px;
+    border: 1px solid #d6b5ad;
+}
+
+
+/* ================= Headings ================= */
+h1, h2, h3 {
+    color: #6a3f35; /* deep rose-brown */
+    font-weight: 700;
+}
+
+
+/* ================= Metric Boxes ================= */
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        135deg,
+        #f2e2dd,
+        #e2c8c1
+    );
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 6px 16px rgba(106, 63, 53, 0.25);
+    border: 1px solid #c9a59a;
+}
+
+
+/* ================= Prediction Highlight ================= */
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #e2c8c1,
+        #c9a59a
+    );
+    padding: 26px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3f2420; /* dark cocoa */
+    margin-top: 20px;
+    box-shadow: 0 8px 22px rgba(63, 36, 32, 0.35);
+}

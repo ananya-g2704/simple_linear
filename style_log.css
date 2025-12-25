@@ -1,0 +1,146 @@
+/* =====================================================
+   APP BACKGROUND
+===================================================== */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #028989 0%,    /* dark slate */
+        #75f3ea 50%,   /* deep teal */
+        #064e3b 100%   /* dark green */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* =====================================================
+   CARD CONTAINER
+===================================================== */
+.card {
+    background: linear-gradient(
+        135deg,
+        #ecfeff,   /* icy cyan */
+        #ccfbf1    /* mint */
+    );
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+    margin-bottom: 26px;
+    border: 1px solid #5eead4;
+}
+
+/* =====================================================
+   HEADINGS
+===================================================== */
+h1, h2, h3 {
+    color: #0f766e; /* deep teal */
+    font-weight: 700;
+}
+
+/* =====================================================
+   TEXT / PARAGRAPHS
+===================================================== */
+.stMarkdown p {
+    color: #000000;
+}
+
+/* =====================================================
+   METRIC BOXES
+===================================================== */
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        135deg,
+        #99f6e4,
+        #5eead4
+    );
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    border: 1px solid #0f766e;
+}
+
+/* Metric values */
+div[data-testid="metric-container"] div {
+    color: #042f2e;
+    font-weight: 700;
+}
+
+/* =====================================================
+   LABEL FIX (Sex, Day, Time, Slider labels)
+===================================================== */
+label {
+    color: #ecfeff !important;
+    font-weight: 600;
+    font-size: 15px;
+    text-shadow: 0 0 8px rgba(236, 254, 255, 0.3);
+}
+
+/* =====================================================
+   SLIDERS
+===================================================== */
+div[data-testid="stSlider"] span {
+    color: #facc15 !important; /* amber yellow */
+    font-weight: 600;
+}
+
+/* Slider track */
+div[data-testid="stSlider"] div[role="slider"] {
+    background-color: #5eead4 !important;
+}
+
+/* =====================================================
+   SELECTBOX (Dropdown)
+===================================================== */
+div[data-testid="stSelectbox"] > div {
+    background-color: #f8fafc;
+    color: #0f172a !important;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* Dropdown options */
+div[data-testid="stSelectbox"] ul li {
+    color: #2a1a0f !important;
+    font-weight: 500;
+}
+
+/* =====================================================
+   DATAFRAME
+===================================================== */
+div[data-testid="stDataFrame"] {
+    background-color: #ecfeff;
+    border-radius: 12px;
+}
+
+/* =====================================================
+   CONFUSION MATRIX FIGURE
+===================================================== */
+canvas {
+    border-radius: 14px;
+}
+
+/* =====================================================
+   PREDICTION BOX
+===================================================== */
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #134e4a,
+        #0f766e
+    );
+    padding: 26px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ecfeff;
+    margin-top: 18px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* =====================================================
+   HOVER EFFECTS
+===================================================== */
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.3s ease-in-out;
+}

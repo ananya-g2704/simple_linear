@@ -1,0 +1,61 @@
+/* App background - olive green gradient */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #556b2f 0%,     /* dark olive */
+        #6b8e23 50%,    /* olive drab */
+        #8fbc8f 100%    /* soft sage */
+    );
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card container */
+.card {
+    background: linear-gradient(
+        135deg,
+        #f4f6ee,       /* light olive white */
+        #e3ead8
+    );
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    margin-bottom: 26px;
+    border: 1px solid #6b8e23;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #3b4f1b;  /* deep olive green */
+    font-weight: 700;
+}
+
+/* Metric boxes */
+div[data-testid="metric-container"] {
+    background: linear-gradient(
+        135deg,
+        #6b8e23 0%,
+        #9acd32
+    );
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    border: 1px solid #556b2f;
+}
+
+/* Prediction highlight */
+.prediction-box {
+    background: linear-gradient(
+        135deg,
+        #3b4f1b,
+        #556b2f
+    );
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f2f7e8;   /* light olive text */
+    margin-top: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
